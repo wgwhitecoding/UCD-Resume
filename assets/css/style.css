@@ -12,11 +12,34 @@
     background-color: #9b59b6;
 }
 .ui-menu-color-contact {
-    background-color: #3498bd;
+    background-color: #3498db;
 }
 .ui-menu-color-download {
     background-color: #525252;
 }
+
+/*--------------------------------speacil paddings/margins/texts */
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /*--------------------------------heading */
 
 header {
@@ -46,7 +69,7 @@ header {
     color: #fff;
 }
 .title {
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
@@ -62,21 +85,20 @@ header {
     font-size: 0;
 }
 
-#nav {
-    margin: 0;
-}
-
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+#nav {
+    margin: 0;
 }
 
 .menuitem {
     height: 170px;
     text-align: center;
     padding: 0;
-
 }
+
 .menuitem a {
     width: 100%;
     text-decoration: none;
@@ -92,14 +114,14 @@ header {
 }
 
 .menuitem span {
-    display:block;
+    display: block;
     width: 100%;
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 300;
-    letter-spacing: 2;
+    letter-spacing: 2px;
 
 }
 
@@ -107,4 +129,29 @@ header {
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 170px;
+}
+
+/*--------------------------------footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+
+}
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px ;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+
+    color: #e84610;
 }
