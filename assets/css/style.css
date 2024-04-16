@@ -32,7 +32,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 420px;
+    min-height: 400px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -60,6 +60,10 @@ header {
 
 .menucontainer {
     font-size: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 #nav li {
@@ -99,3 +103,8 @@ header {
 
 }
 
+/*--------------------------------hover.css */
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 170px;
+}
