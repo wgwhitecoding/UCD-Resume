@@ -27,7 +27,7 @@
     background-color: #508aa8;
 }
 .ui-menu-color-contact {
-    background-color: #b7b7b7;
+    background-color: #93b1a7;
 }
 .ui-menu-color-download {
     background-color: #525252;
@@ -44,12 +44,12 @@
 .history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-/*--------------------------------speacil paddings/margins/texts */
+/*--------------------------------special paddings/margins/texts */
 h1,
 h2,
 h3,
@@ -63,7 +63,7 @@ h4 {
 
 .general-sub {
     font-family: "Exo", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     color: #fafafa;
 }
 
@@ -82,7 +82,7 @@ h4 {
 
 .section-heading {
     font-family: "Exo", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 25px;
     margin-bottom: 40px;
 }
@@ -147,6 +147,7 @@ header {
 }
 
 .menuitem a {
+    margin-top: 20px;
     width: 100%;
     text-decoration: none;
     color: #fff;
@@ -175,7 +176,7 @@ header {
 /*--------------------------------hover.css */
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
-    height: 170px;
+    height: 100%;
 }
 
 /*--------------------------------footer */
@@ -331,6 +332,53 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #e84610;
+}
+
+/*--------------------------------form*/
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+
+button[type="submit"] {
+    width: 100%;
+    padding:10px;
+    border: none;
+    border-radius: px;
+    background-color: #e84610;
+    color: #f4f4f4;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.personal-info-item {
+    font-weight: 500;
 }
 
 /*--------------------------------media query*/
