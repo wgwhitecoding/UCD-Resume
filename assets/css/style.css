@@ -2,7 +2,11 @@
 
 /*--------------------------------colors */
 .bg-color-name-title {
-    background-color: #773344;
+    background:url(../images/pexels-timson-foox-776012-2182863.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .bg-color-three-reasons {
     background-color: #fff;
@@ -42,7 +46,7 @@
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 /*--------------------------------speacil paddings/margins/texts */
@@ -106,16 +110,16 @@ header {
 
 .name {
     font-family: "Exo", sans-serif;
-    font-weight: 100;
-    font-size: 46px;
+    font-weight: 400;
+    font-size: 60px;
     margin-top: 50px;
     color: #fff;
 }
 .title {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-size: 28px;
-    margin-top: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 10px;
     margin-bottom: 90px;
     color: #fff;
 }
@@ -235,7 +239,7 @@ footer {
 }
 
 .three-reasons-heading {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 /*--------------------------------skills */
 
