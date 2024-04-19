@@ -312,7 +312,8 @@ footer {
 }
 
 .history-items {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
+    
 }
 /*--------------------------------heading */
 
@@ -382,9 +383,23 @@ button[type="submit"]:hover {
 }
 
 .personal-info-item {
-    font-weight: 700;
-    
-    
+    font-weight: 700; 
+}
+/*--------------------------------resume scrollbar*/
+
+
+.history-items::-webkit-scrollbar{
+    width: 10px;
+}
+.history-items::-webkit-scrollbar-track {
+    background-color:#508aa8;
+}
+.history-items::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 10px;
+}
+.history-items::-webkit-scrollbar-thumb:hover {
+    background-color: #000;
 }
 
 /*--------------------------------media query*/
