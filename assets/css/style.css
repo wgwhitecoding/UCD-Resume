@@ -381,7 +381,9 @@ button[type="submit"]:hover {
 }
 
 .personal-info-item {
-    font-weight: 500;
+    font-weight: 700;
+    
+    
 }
 
 /*--------------------------------media query*/
