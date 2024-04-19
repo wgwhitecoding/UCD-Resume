@@ -313,6 +313,9 @@ footer {
 
 .history-items {
     margin-bottom: 5px;
+    max-height: 300px; /* Set a maximum height for the container */
+    overflow-y: auto; /* Enable vertical scrollbar */
+    
     
 }
 /*--------------------------------heading */
@@ -411,5 +414,10 @@ button[type="submit"]:hover {
         margin: 0 auto;
         max-width: 70%;
         max-width: 50%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .history-items {
+        overflow-y: auto; /* Enable scrollbar for larger screens */
     }
 }
