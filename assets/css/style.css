@@ -79,7 +79,7 @@ h4 {
 }
 .section-column {
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0 20px 5px;
     float: none;
 }
 
@@ -174,7 +174,6 @@ header {
     font-size: 20px;
     font-weight: 300;
     letter-spacing: 2px;
-
 }
 
 /*--------------------------------hover.css */
@@ -313,8 +312,9 @@ footer {
 
 .history-items {
     margin-bottom: 5px;
-    max-height: 300px; /* Set a maximum height for the container */
-    overflow-y: auto; /* Enable vertical scrollbar */
+    max-height: 300px;
+    overflow-y: auto;
+    
     
     
 }
@@ -322,25 +322,11 @@ footer {
 
 .contact-heading {
     font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.center-form {
-    padding: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-    
-    
-}
-
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #e84610;
-}
 
 /*--------------------------------form*/
 
@@ -351,6 +337,7 @@ form {
     border: 2px solid #ddd;
     border-radius: 10px;
     background-color: #f9f9f9;
+    margin-bottom: 30px;
 }
 
 
@@ -385,8 +372,13 @@ button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
+/*--------------------------------personal info*/
+
 .personal-info-item {
     font-weight: 700; 
+}
+.key {
+    font-size: 20px;
 }
 /*--------------------------------resume scrollbar*/
 
@@ -418,6 +410,7 @@ button[type="submit"]:hover {
 }
 @media screen and (min-width: 768px) {
     .history-items {
-        overflow-y: auto; /* Enable scrollbar for larger screens */
+        overflow-y: scroll;
     }
-}
+    
+} 
