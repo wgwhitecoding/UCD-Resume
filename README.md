@@ -14,7 +14,7 @@ This repository hosts the front-end source code for Walid (Will) Gailey-White's 
 
 - [Image Licenses and Attribution]
 
-- validation
+- [Validation ]
 
 - [Contact Information]
 
@@ -88,7 +88,7 @@ The user can access the content via a web browser
     Photo by Henry  & Co.: https://www.pexels.com/photo/white-painted-wall-1939485/
 
 ## Validation
-- all 4 files including index.html, resume.html, contact.html and style.css have been validated by https://jigsaw.w3.org/css-validator/validator all files have passed the validation 
+- All 4 files including index.html, resume.html, contact.html and style.css have been validated by https://jigsaw.w3.org/css-validator/validator all files have passed the validation 
 
 ## Contact Information
 For inquiries or further information, contact:
