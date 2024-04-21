@@ -155,7 +155,7 @@ header {
     text-decoration: none;
     color: #fff;
     height: 170px;
-    position: center;
+    position: relative;
 }
 
 .menuitem a i {
@@ -236,6 +236,9 @@ footer {
 }
 /*--------------------------------three reasons */
 
+.three-reasons-heading {
+    text-transform: uppercase;
+}
 
 .three-reasons-icon {
     font-size: 26px;
@@ -362,7 +365,7 @@ button[type="submit"] {
     width: 100%;
     padding:10px;
     border: none;
-    border-radius: px;
+    border-radius: 10px;
     background-color: #e84610;
     color: #f4f4f4;
     cursor: pointer;
