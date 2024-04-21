@@ -71,10 +71,10 @@ The user can access the content via a web browser
 
 ## Image Licenses and Attribution
 
-# icons
+# Icons
 - Font Awesome Icons: This project uses icons from “Font Awesome” that are licensed under “The Font Awesome Free License”.
 
-# favicon
+# Favicon
 - favicon by Surang Lineal: https://www.flaticon.com/free-icon/coding_3242120?term=coding&related_id=3242120
 
 # Image source: 
@@ -87,7 +87,7 @@ The user can access the content via a web browser
 - Contact background image: 
     Photo by Henry  & Co.: https://www.pexels.com/photo/white-painted-wall-1939485/
 
-## validation
+## Validation
 - all 4 files including index.html, resume.html, contact.html and style.css have been validated by https://jigsaw.w3.org/css-validator/validator all files have passed the validation 
 
 ## Contact Information
@@ -95,7 +95,6 @@ For inquiries or further information, contact:
 
 Name: Walid (Will) Gailey-White
 Email: walidwillwhite@gmail.com
-Phone: 07724175010
 
 
 
